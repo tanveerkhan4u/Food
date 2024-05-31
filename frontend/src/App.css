@@ -1,0 +1,14 @@
+.height{
+  height: 600px;
+  width: 100%;
+  background-image: url('../src/Components/images/food1.png');
+}
+
+
+@media (max-width: 768px) {
+  .height{
+    height: 100%;
+    
+  }
+  
+}
