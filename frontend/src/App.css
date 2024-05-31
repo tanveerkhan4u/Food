@@ -16,6 +16,9 @@
   text-shadow: 0px 0px 10px black;
   color: black;
 }
+.menu{
+  max-width: 60%;
+}
 button1 {
   padding: 17px 15px;
   /* border-radius: 50px; */
@@ -60,11 +63,18 @@ button1:active {
   }
   .texting{
     font-size: 30px;
-    padding-top: 100px;
+    padding-top: 70px;
+    
   }
   .button{
     margin-left: 120px;
-  
   }
-  
+  .menu{
+    max-width: 100%;
+  }
 }
+  
+  
+
+ 
+    
