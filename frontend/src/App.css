@@ -1,3 +1,4 @@
+/* for home page css starts */
 .height{
   height: 600px;
   width: 100%;
@@ -7,6 +8,7 @@
   background-position: center;
   
 }
+
 .texting{
   color: white;
   font-size: 50px;
@@ -68,6 +70,7 @@ button1:active {
   }
   .button{
     margin-left: 120px;
+
   }
   .menu{
     max-width: 100%;

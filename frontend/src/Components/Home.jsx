@@ -9,7 +9,8 @@ const Home = () => {
         <div className='header'>
           <h1 className="text-center text-white texting">Order Your Favourite Food Here</h1>
           <p className='text-center text-xl shadow-2xl paragrapgh'>Choose From a diverse menu featuring a delectable array of dishes crafted with the finest ingrediants and culinary expertise.</p>
-          <div className="d-flex justify-content-center mt-10">
+          <div className=" mt-10">
+
             <button1 className="p-5 fs-5 button">
               order Now
             </button1>
@@ -54,8 +55,9 @@ const Home = () => {
       <br />
       <div className="container">
         <h3 className='text-4xl mt-5 ml-5 font-bold'>Top dishes near you</h3>
-        
       </div>
+      
+        
 
 
 
