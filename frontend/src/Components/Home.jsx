@@ -17,7 +17,7 @@ const Home = () => {
         </div>
       </div>
       <div className="container">
-        <h3 className='text text-4xl mt-5 ml-5'>Explore our menu</h3>
+        <h3 className='text text-4xl mt-5 ml-5 font-bold'>Explore our menu</h3>
         <p className='text-gray-600 mt-5 menu ml-5 '> choose from diverse menu featuring a delectable array of dishes. Our mission is to satisfy your cravings and elevate your dining  experience one delicious meal at a time.</p>
       </div>
       <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 ml-5 mt-5 ">
@@ -52,6 +52,10 @@ const Home = () => {
         <hr />
       </div>
       <br />
+      <div className="container">
+        <h3 className='text-4xl mt-5 ml-5 font-bold'>Top dishes near you</h3>
+        
+      </div>
 
 
 
