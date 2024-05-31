@@ -1,14 +1,70 @@
 .height{
   height: 600px;
   width: 100%;
-  background-image: url('../src/Components/images/food1.png');
+  background-image: 
+  url(https://plus.unsplash.com/premium_photo-1663045225240-3c305414e9a3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+  
 }
+.texting{
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 200px;
+  text-shadow: 0px 0px 10px black;
+  color: black;
+}
+button1 {
+  padding: 17px 15px;
+  /* border-radius: 50px; */
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  /* text-transform: lowercase; */
+  font-size: 15px;
+  transition: all 0.5s ease;
+
+}
+
+button1:hover {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+button1:active {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+.button{
+  margin-left: 600px;
+}
+  
+
+
 
 
 @media (max-width: 768px) {
   .height{
     height: 100%;
     
+  }
+  .texting{
+    font-size: 30px;
+    padding-top: 100px;
+  }
+  .button{
+    margin-left: 120px;
+  
   }
   
 }
