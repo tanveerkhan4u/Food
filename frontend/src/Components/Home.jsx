@@ -5,6 +5,8 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 import mobile from './images/mobile.png'
+import apple from './images/apple.png'
+import google from './images/google.png'
 
 
 const Home = () => {
@@ -130,9 +132,17 @@ const Home = () => {
             <p className='text-gray-600 text-xl px-4 py-4 sm:ml-5 md:ml-8 lg:ml-20'>
             A great food restaurant is more than just a place to eat; it is an experience that delights all the senses.   
             </p>
+            <div className='grid grid-cols-1 md:grid-cols-2  lg:grid-cols-2 ml-20'>
+            <div>
+              <img src={apple} className='object-cover w-52 mt-5 ' alt="" />
+            </div>
+            <div >
+            <img src={google} className='object-cover w-52 mt-5' alt="" />
+            </div>
+            </div>
           </div>
           <div >
-            <img src={mobile} className='object-cover mobile  sm:ml-4 md:ml-8 lg:ml-20 py-4 px-4 ' alt="" />
+            <img src={mobile} className='object-cover mobile ml-10 sm:ml-4 md:ml-8 lg:ml-20 py-4 px-4 ' alt="" />
           </div>
         </div>
       </div>
