@@ -4,7 +4,7 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import { EffectCoverflow, Pagination } from 'swiper/modules';
-
+import mobile from './images/mobile.png'
 
 
 const Home = () => {
@@ -121,8 +121,18 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <br/>
+      <br />
 
+      <div className="container">
+        <div className='grid grid-cols-1  lg:grid-cols-2 mt-5'>
+          <div>
+            <h1 className='text-5xl font-semibold sm:ml-5 md:ml-5 lg:ml-5'>Download App</h1>
+          </div>
+          <div className="download">
+            <img src={mobile} className='object-cover w-96 py-4 px-4 ' alt="" />
+          </div>
+        </div>
+      </div>
 
 
 
