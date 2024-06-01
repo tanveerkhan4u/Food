@@ -7,6 +7,7 @@ import { EffectCoverflow, Pagination } from 'swiper/modules';
 import mobile from './images/mobile.png'
 import apple from './images/apple.png'
 import google from './images/google.png'
+import arrow from './images/arrow.png'
 
 
 const Home = () => {
@@ -124,11 +125,14 @@ const Home = () => {
         </div>
       </div>
       <br />
+     
+     
+
 
       <div className="container">
         <div className='grid grid-cols-1 md:grid-cols-2  lg:grid-cols-2 mt-5'>
           <div className='download'>
-            <h1 className='text-5xl md:text-6xl lg:text-7xl font-semibold sm:ml-4 md:ml-8 lg:ml-20 px-4 py-4 md:mt-40 lg:mt-28'>Download App</h1>
+            <h1 className='text-5xl md:text-6xl lg:text-7xl font-semibold sm:ml-4 md:ml-8 lg:ml-20 px-4 py-4 md:mt-20 lg:mt-28'>Download App</h1>
             <p className='text-gray-600 text-xl px-4 py-4 sm:ml-5 md:ml-8 lg:ml-20'>
             A great food restaurant is more than just a place to eat; it is an experience that delights all the senses.   
             </p>
@@ -138,6 +142,9 @@ const Home = () => {
             </div>
             <div >
             <img src={google} className='object-cover w-52 mt-5' alt="" />
+            </div>
+            <div>
+              <img src={arrow} className='object-cover mt-10 px-4 py-4 w-38 md:ml-20' alt="" />
             </div>
             </div>
           </div>
