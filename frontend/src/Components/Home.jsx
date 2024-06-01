@@ -13,7 +13,7 @@ const Home = () => {
       <div className="container-fluid height " >
         <div className='header'>
           <h1 className="text-center text-white texting">Order Your Favourite Food Here</h1>
-          <p className='text-center text-xl shadow-2xl paragrapgh'>Choose From a diverse menu featuring a delectable array of dishes crafted with the finest ingrediants and culinary expertise.</p>
+          <p className='text-center text-xl shadow-2xl paragrapgh font-semibold'>Choose From a diverse menu featuring a delectable array of dishes crafted with the finest ingrediants and culinary expertise.</p>
           <div className=" mt-10">
 
             <button1 className="p-5 fs-5 button">
@@ -59,7 +59,7 @@ const Home = () => {
       </div>
       <br />
       <div className="container">
-        <h3 className='text-4xl mt-5 text-center font-bold text-orange-500'>Trending Food</h3>
+        <h3 className='text-4xl mt-5 text-center font-bold text-orange-500 '>Trending Food</h3>
       </div>
       <br />
       <>
@@ -80,7 +80,7 @@ const Home = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img className='imageswiper w-96 h-96 mx-auto my-auto object-cover px-4 py-4' src="https://images.unsplash.com/photo-1596662951482-0c4ba74a6df6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJ1cmdlcnxlbnwwfHwwfHx8MA%3D%3D" />
+            <img className='imageswiper w-96 h-96 mx-auto my-auto object-cover px-4 py-4 ' src="https://images.unsplash.com/photo-1596662951482-0c4ba74a6df6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJ1cmdlcnxlbnwwfHwwfHx8MA%3D%3D" />
           </SwiperSlide>
           <SwiperSlide>
             <img className='imageswiper w-96 h-96 mx-auto my-auto object-cover px-4 py-4' src="https://images.unsplash.com/photo-1630431341973-02e1b662ec35?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZyZW5jaCUyMGZyaWVzfGVufDB8fDB8fHww" />
@@ -116,11 +116,12 @@ const Home = () => {
             <img src="https://assets.website-files.com/63d0c13bf294b9ad2ad7a1f0/63d9de67f1e5b982041702d6_about-image-01.png " className='object-cover w-full h-96 mx-auto py-4 px-4 ' alt="" />
           </div>
           <div className="heading">
-            <h1 className='text-4xl text-center text-orange-500 font-bold'>About Us</h1>
-            <p className='text-gray-600 mt-5 text-lg px-4 py-4  chaku text-white'>We are a team of passionate foodies dedicated to providing you with the best dining experience possible. Our mission is to satisfy your cravings and elevate your dining experience one delicious meal at a time.</p>
+            <h1 className='text-4xl text-center text-orange-500 font-extrabold'>About Us</h1>
+            <p className='text-white mt-5 text-lg px-4 py-4 '>We are a team of passionate foodies dedicated to providing you with the best dining experience possible. Our mission is to satisfy your cravings and elevate your dining experience one delicious meal at a time.</p>
           </div>
         </div>
       </div>
+      <br/>
 
 
 

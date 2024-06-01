@@ -59,16 +59,7 @@ button1:active {
 .button{
   margin-left: 600px;
 }
- /* .chaku{
-  text-shadow: 0px 0px 10px white,
-  0px 0px 10px white,
-  0px 0px 10px white,
-  0px 0px 10px white;
-  
-  color: white;
-  font-size: 50px;
- }  */
-
+ 
 
 
 @media (max-width: 768px) {
