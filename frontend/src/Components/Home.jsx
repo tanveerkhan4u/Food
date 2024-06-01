@@ -83,35 +83,37 @@ const Home = () => {
           <img className='imageswiper w-96 h-96 mx-auto my-auto object-cover ' src="https://images.unsplash.com/photo-1596662951482-0c4ba74a6df6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJ1cmdlcnxlbnwwfHwwfHx8MA%3D%3D" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className='imageswiper w-96 h-96 mx-auto my-auto' src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          <img className='imageswiper w-96 h-96 mx-auto my-auto object-cover' src="https://images.unsplash.com/photo-1630431341973-02e1b662ec35?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZyZW5jaCUyMGZyaWVzfGVufDB8fDB8fHww" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className='imageswiper w-96 h-96 mx-auto my-auto' src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          <img className='imageswiper w-96 h-96 mx-auto my-auto object-cover' src="https://images.unsplash.com/photo-1628410040883-c412c8d9a0f9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW9tb3N8ZW58MHx8MHx8fDA%3D" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className='imageswiper w-96 h-96 mx-auto my-auto' src="https://swiperjs.com/demos/images/nature-4.jpg" />
+          <img className='imageswiper w-96 h-96 mx-auto my-auto object-cover' src="https://images.unsplash.com/photo-1638439430466-b2bb7fdc1d67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2hpY2tlbiUyMGZvb2R8ZW58MHx8MHx8fDA%3D" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className='imageswiper w-96 h-96 mx-auto my-auto' src="https://swiperjs.com/demos/images/nature-5.jpg" />
+          <img className='imageswiper w-96 h-96 mx-auto my-auto object-cover' src="https://images.unsplash.com/photo-1530469912745-a215c6b256ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hhd2FybWF8ZW58MHx8MHx8fDA%3D" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className='imageswiper w-96 h-96 mx-auto my-auto' src="https://swiperjs.com/demos/images/nature-6.jpg" />
+          <img className='imageswiper w-96 h-96 mx-auto my-auto object-cover' src="https://plus.unsplash.com/premium_photo-1674498270805-d1fbcbeef7da?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZpc2glMjBmb29kfGVufDB8fDB8fHww" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className='imageswiper w-96 h-96 mx-auto my-auto' src="https://swiperjs.com/demos/images/nature-7.jpg" />
+          <img className='imageswiper w-96 h-96 mx-auto my-auto object-cover' src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFuZWVyJTIwdGlra2F8ZW58MHx8MHx8fDA%3D" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className='imageswiper w-96 h-96 mx-auto my-auto' src="https://swiperjs.com/demos/images/nature-8.jpg" />
+          <img className='imageswiper w-96 h-96 mx-auto my-auto object-cover' src="https://images.unsplash.com/photo-1546793665-c74683f339c1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2FsYWR8ZW58MHx8MHx8fDA%3D" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className='imageswiper w-96 h-96 mx-auto my-auto' src="https://swiperjs.com/demos/images/nature-9.jpg" />
+          <img className='imageswiper w-96 h-96 mx-auto my-auto object-cover' src="https://images.unsplash.com/photo-1579783411194-f697db862dcd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2VhJTIwZm9vZHxlbnwwfHwwfHx8MA%3D%3D" />
         </SwiperSlide>
         <br/><br/>
       </Swiper>
-
-
-
       </>
+      <br/>
+      
+
+
+
 
 
 
