@@ -116,7 +116,7 @@ const Home = () => {
             <img src="https://assets.website-files.com/63d0c13bf294b9ad2ad7a1f0/63d9de67f1e5b982041702d6_about-image-01.png " className='object-cover w-full h-96 mx-auto py-4 px-4 ' alt="" />
           </div>
           <div className="heading">
-            <h1 className='text-4xl text-center text-orange-500 font-extrabold'>About Us</h1>
+            <h1 className='text-4xl text-center text-orange-500 font-extrabold '>About Us</h1>
             <p className='text-white mt-5 text-lg px-4 py-4 '>We are a team of passionate foodies dedicated to providing you with the best dining experience possible. Our mission is to satisfy your cravings and elevate your dining experience one delicious meal at a time.</p>
           </div>
         </div>
@@ -124,12 +124,15 @@ const Home = () => {
       <br />
 
       <div className="container">
-        <div className='grid grid-cols-1  lg:grid-cols-2 mt-5'>
-          <div>
-            <h1 className='text-5xl font-semibold sm:ml-5 md:ml-5 lg:ml-5'>Download App</h1>
+        <div className='grid grid-cols-1 md:grid-cols-2  lg:grid-cols-2 mt-5'>
+          <div className='download'>
+            <h1 className='text-5xl md:text-6xl lg:text-7xl font-semibold sm:ml-4 md:ml-8 lg:ml-20 px-4 py-4 md:mt-40 lg:mt-28'>Download App</h1>
+            <p className='text-gray-600 text-xl px-4 py-4 sm:ml-5 md:ml-8 lg:ml-20'>
+            A great food restaurant is more than just a place to eat; it is an experience that delights all the senses.   
+            </p>
           </div>
-          <div className="download">
-            <img src={mobile} className='object-cover w-96 py-4 px-4 ' alt="" />
+          <div >
+            <img src={mobile} className='object-cover mobile  sm:ml-4 md:ml-8 lg:ml-20 py-4 px-4 ' alt="" />
           </div>
         </div>
       </div>
