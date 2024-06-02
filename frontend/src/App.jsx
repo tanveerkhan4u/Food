@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './App.css'
 import { BrowserRouter, Link, Route, Routes, NavLink, } from 'react-router-dom';
 import Home from './Components/Home';
@@ -7,7 +7,10 @@ import Login from './Components/Login';
 
 
 function App() {
-  
+  const [show, setShow] = useState(false);
+
+
+
 
   return (
     <>
