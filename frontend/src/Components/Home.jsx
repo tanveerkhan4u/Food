@@ -8,7 +8,7 @@ import mobile from './images/mobile.png'
 import apple from './images/apple.png'
 import google from './images/google.png'
 import arrow from './images/arrow.png'
-
+import { FaBus } from "react-icons/fa";
 
 const Home = () => {
   return (
@@ -125,8 +125,38 @@ const Home = () => {
         </div>
       </div>
       <br />
-     
-     
+      <div className='py-14 md:py-28 bg-gray-50'>
+        <div className="container">
+          <h1 className='pb-16 tracking-wider text-4xl font-semibold  text-center'>
+            Why Choose Us
+          </h1>
+          <div>
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-14 sm:gap-4">
+              <div className='text-center flex justify-center items-center flex-col gap-2 px-2'>
+                <p className='text-dark/70 font-semibold'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                <p className='text-5xl rotate-90 text-primary text-center translate-x-5 bus'>.....</p>
+                <FaBus className='text-5xl bus'/>
+              </div>
+              <div className='text-center flex justify-center items-center flex-col gap-2 px-2'>
+                <FaBus className='text-5xl green'/>
+                <p className='text-5xl rotate-90 text-primary text-center translate-x-5 green'>.....</p>
+                <p className='text-dark/70 font-semibold'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+              </div>
+              <div className='text-center flex justify-center items-center flex-col gap-2 px-2'>
+                <p className='text-dark/70 font-semibold'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                <p className='text-5xl rotate-90 text-primary text-center translate-x-5 yellow'>.....</p>
+                <FaBus className='text-5xl yellow'/>
+              </div>
+              <div className='text-center flex justify-center items-center flex-col gap-2 px-2'>
+                <FaBus className='text-5xl blue'/>
+                <p className='text-5xl rotate-90 text-primary text-center translate-x-5 blue'>.....</p>
+                <p className='text-dark/70 font-semibold'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
 
 
       <div className="container">
@@ -134,18 +164,18 @@ const Home = () => {
           <div className='download'>
             <h1 className='text-5xl md:text-6xl lg:text-7xl font-semibold sm:ml-4 md:ml-8 lg:ml-20 px-4 py-4 md:mt-20 lg:mt-28'>Download App</h1>
             <p className='text-gray-600 text-xl px-4 py-4 sm:ml-5 md:ml-8 lg:ml-20'>
-            A great food restaurant is more than just a place to eat; it is an experience that delights all the senses.   
+              A great food restaurant is more than just a place to eat; it is an experience that delights all the senses.
             </p>
             <div className='grid grid-cols-1 md:grid-cols-2  lg:grid-cols-2 ml-20'>
-            <div>
-              <img src={apple} className='object-cover w-52 mt-5 ' alt="" />
-            </div>
-            <div >
-            <img src={google} className='object-cover w-52 mt-5' alt="" />
-            </div>
-            <div>
-              <img src={arrow} className='object-cover mt-10 px-4 py-4 w-38 md:ml-20' alt="" />
-            </div>
+              <div>
+                <img src={apple} className='object-cover w-52 mt-5 ' alt="" />
+              </div>
+              <div >
+                <img src={google} className='object-cover w-52 mt-5' alt="" />
+              </div>
+              <div>
+                <img src={arrow} className='object-cover mt-10 px-4 py-4 w-38 md:ml-20' alt="" />
+              </div>
             </div>
           </div>
           <div >

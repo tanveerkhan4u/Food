@@ -68,7 +68,18 @@ button1:active {
   height: 600px;
   width: 300px;
  }
- 
+ .bus{
+  color: red;
+ }
+ .green{
+  color: green;
+ }
+ .yellow{
+  color: yellow;
+ }
+ .blue{
+  color: skyblue;
+ }
 
 @media (max-width: 768px) {
   .height{
