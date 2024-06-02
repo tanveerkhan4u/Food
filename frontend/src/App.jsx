@@ -7,7 +7,10 @@ import Login from './Components/Login';
 
 
 function App() {
-  const [show, setShow] = useState(false);
+  const [showPopup, setShowPopup] = React.useState(false);
+  const HandlePopup = () => {
+    setShowPopup(true);
+  };
 
 
 
@@ -18,8 +21,8 @@ function App() {
      <Navbar></Navbar>
       <Routes>
       <Route path="/Home" element={<Home />} />
-      <Route path="/Navbar" element={<Navbar />} />
-      <Route path="/Login" element={<Login />} />
+      <Route path="/Navbar" element={<Navbar HandlePopup = {HandlePopup}/>} />
+      <Route path="/Login" element={<Login showPopup = {showPopup} setShowPopup = {setShowPopup}/>} />
       
       
       </Routes>
