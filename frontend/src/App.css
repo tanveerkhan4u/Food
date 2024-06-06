@@ -105,15 +105,17 @@ button1:active {
 /* Navbar css starts */
 
 .navbar{
-  padding: 5px 0px;
+  padding: 10px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 80%;
   margin: auto;
 }
-.navbar .logo{
-  width: 150px;
+
+.navbar .zwiagto{
+  width: 70px;
+  height: 70px;
   }
   .navbar-menu{
     display: flex;
@@ -159,6 +161,62 @@ button1:active {
        top: -8px;
        right: -8px;
     }
+    /* navbar css end */
+
+    /* navbar media query */
+    @media (max-width: 1050px){
+      .navbar .zwiagto{
+        width: 70px;
+        height: 70px;
+      }
+      .navbar-menu{
+        gap: 20px;
+        font-size: 17px;
+        }
+        .navbar-search{
+          gap: 30px;
+        }
+        .navbar-search .chashma{
+          width: 22px;
+        }
+        .navbar-search button{
+          padding: 8px 25px;
+        }
+    }
+        
+        @media (max-width: 900px){
+          .navbar .zwiagto{
+            width: 70px;
+            height: 70px;
+          }
+          .navbar-menu{
+            gap: 20px;
+            font-size: 17px;
+            }
+            .navbar-search{
+              gap: 30px;
+            }
+            .navbar-search .chashma{
+              width: 20px;
+            }
+            .navbar-search button{
+              padding: 7px 20px;
+              font-size: 15px;
+            }  
+          }   
+          @media (max-width: 750px){
+           
+            .navbar-menu{
+              display: none;
+              }
+              }
+            /* navbar media query ends */
+
+            
+                
+  
+
+
 
   
   
