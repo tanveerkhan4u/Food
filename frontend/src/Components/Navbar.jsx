@@ -14,9 +14,9 @@ const Navbar = ( ) => {
   return (
     <>
       <div className='navbar'>
-      
+      <Link to="/Home">
            <img src={zwigato} className='zwiagto  object-cover w-16 h-16' alt="" />
-           
+           </Link>
            <ul className="navbar-menu">
             <Link to="/Home" onClick={() =>setmenu("home")} className={menu==="home"?"active":""}>Home</Link>
             <li onClick={() =>setmenu("menu")} className={menu==="menu"?"active":""}>Menu</li>
@@ -29,7 +29,9 @@ const Navbar = ( ) => {
          <CiShoppingCart className='text-3xl chashma'/>
          <div className='dot'></div>
          </div>
-         <button >sign in</button>
+         <Link to="/Popup">
+         <button >Log in</button>
+         </Link>
          </div>
       </div>
     </>
