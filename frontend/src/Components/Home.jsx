@@ -119,7 +119,7 @@ const Home = () => {
             <img src="https://assets.website-files.com/63d0c13bf294b9ad2ad7a1f0/63d9de67f1e5b982041702d6_about-image-01.png " className='object-cover w-full h-96 mx-auto py-4 px-4 ' alt="" />
           </div>
           <div className="heading">
-            <h1 className='text-4xl text-center text-orange-500 font-extrabold '>About Us</h1>
+            <h1 className='text-4xl text-center text-orange-500 font-extrabold '>Zwigato</h1>
             <p className='text-white mt-5 text-lg px-4 py-4 '>We are a team of passionate foodies dedicated to providing you with the best dining experience possible. Our mission is to satisfy your cravings and elevate your dining experience one delicious meal at a time.</p>
           </div>
         </div>
@@ -175,10 +175,10 @@ const Home = () => {
             </p>
             <div className='grid grid-cols-1 md:grid-cols-2  lg:grid-cols-2 ml-20'>
               <div>
-                <img src={apple} className='object-cover w-52 mt-5 ' alt="" />
+                <img src={apple} className='object-cover w-52 mt-5  hover:scale-110 duration-500 transition-transform' alt="" />
               </div>
               <div >
-                <img src={google} className='object-cover w-52 mt-5' alt="" />
+                <img src={google} className='object-cover w-52 mt-5 hover:scale-110 duration-500 transition-transform' alt="" />
               </div>
               <div>
                 <img src={arrow} className='object-cover mt-10 px-4 py-4 w-38 md:ml-20' alt="" />

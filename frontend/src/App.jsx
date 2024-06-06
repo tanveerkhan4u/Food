@@ -3,15 +3,12 @@ import './App.css'
 import { BrowserRouter, Link, Route, Routes, NavLink, } from 'react-router-dom';
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
-import Login from './Components/Login';
+import About from './Components/About';
+
 
 
 function App() {
-  const [showPopup, setShowPopup] = React.useState(false);
-  const HandlePopup = () => {
-    setShowPopup(true);
-  };
-
+ 
 
 
 
@@ -21,8 +18,9 @@ function App() {
      <Navbar></Navbar>
       <Routes>
       <Route path="/Home" element={<Home />} />
-      <Route path="/Navbar" element={<Navbar HandlePopup = {HandlePopup}/>} />
-      <Route path="/Login" element={<Login showPopup = {showPopup} setShowPopup = {setShowPopup}/>} />
+      <Route path="/Navbar" element={<Navbar />} />
+      <Route path="/About" element={<About />} />
+      
       
       
       </Routes>
