@@ -9,12 +9,16 @@ import Popup from './Components/Popup';
 
 
 function App() {
- const [showPopup, setshowPopup] = React.useState(false);
+
+
+  
+ const [showPopup, setShowPopup] = useState(false);
+
  const HandlePopup = () => {
-    setshowPopup(true);
+    setShowPopup(true);
  };
 
-
+  
 
 
 
@@ -24,9 +28,9 @@ function App() {
      <Navbar></Navbar>
       <Routes>
       <Route path="/Home" element={<Home />} />
-      <Route path="/Navbar" element={<Navbar />} />
+      <Route path="/Navbar" element={<Navbar HandlePopup = {HandlePopup}/>} />
       <Route path="/About" element={<About />} />
-      <Route path="/Popup" element={<Popup showPopup={showPopup} setshowPopup={setshowPopup} />} />
+      <Route path="/Popup" element={<Popup showPopup = {showPopup} setShowPopup = {setShowPopup} />} />
       
       
       

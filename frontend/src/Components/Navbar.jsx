@@ -4,7 +4,7 @@ import zwigato from './images/zwigato.png'
 import { CiShoppingCart , CiSearch } from "react-icons/ci";
 
 
-const Navbar = ( ) => {
+const Navbar = ({HandlePopup} ) => {
 
   const [menu, setmenu] = useState("home");
 
@@ -30,7 +30,7 @@ const Navbar = ( ) => {
          <div className='dot'></div>
          </div>
          <Link to="/Popup">
-         <button >Log in</button>
+         <button onClick={HandlePopup}>Log in</button>
          </Link>
          </div>
       </div>
