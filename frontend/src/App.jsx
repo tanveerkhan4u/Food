@@ -12,12 +12,7 @@ function App() {
 
 
   
- const [showPopup, setShowPopup] = useState(false);
-
- const HandlePopup = () => {
-    setShowPopup(true);
- };
-
+ 
   
 
 
@@ -28,9 +23,9 @@ function App() {
      <Navbar></Navbar>
       <Routes>
       <Route path="/Home" element={<Home />} />
-      <Route path="/Navbar" element={<Navbar HandlePopup = {HandlePopup}/>} />
+      <Route path="/Navbar" element={<Navbar />} />
       <Route path="/About" element={<About />} />
-      <Route path="/Popup" element={<Popup showPopup = {showPopup} setShowPopup = {setShowPopup} />} />
+      <Route path="/Popup" element={<Popup />} />
       
       
       

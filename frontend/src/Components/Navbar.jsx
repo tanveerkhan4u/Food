@@ -2,9 +2,10 @@ import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import zwigato from './images/zwigato.png'
 import { CiShoppingCart , CiSearch } from "react-icons/ci";
+import { IoIosMenu } from "react-icons/io";
 
 
-const Navbar = ({HandlePopup} ) => {
+const Navbar = ( ) => {
 
   const [menu, setmenu] = useState("home");
 
@@ -24,14 +25,15 @@ const Navbar = ({HandlePopup} ) => {
             <li onClick={() =>setmenu("contact us")} className={menu==="contact us"?"active":""}>Contact Us</li>
            </ul>
          <div className='navbar-search'>
-         <CiSearch  className='text-3xl chashma'/>
+    
          <div className='navbar-cart'>
-         <CiShoppingCart className='text-3xl chashma'/>
+         <CiShoppingCart className='text-3xl  chashma'/>
          <div className='dot'></div>
          </div>
          <Link to="/Popup">
-         <button onClick={HandlePopup}>Log in</button>
+         <button >Log in</button>
          </Link>
+        
          </div>
       </div>
     </>
