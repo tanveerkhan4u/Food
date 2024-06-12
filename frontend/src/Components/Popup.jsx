@@ -2,7 +2,7 @@ import React from 'react'
 import { IoCloseOutline } from "react-icons/io5";
 
 const Popup = ( ) => {
-
+ 
   
   return (
     <>
@@ -16,23 +16,26 @@ const Popup = ( ) => {
                       <h1 className='text-2xl font-bold text-dark'>Log In</h1>
                     </div>
                     <div>
-                    <IoCloseOutline  className='text-2xl cursor-pointer' onClick={() => setShowPopup(false)}/>
+                    <IoCloseOutline  className='text-2xl cursor-pointer' />
                     </div>
                   </div>
+                  <form>
                   <div className='mt-4'>
                     <input type="email" placeholder='enter your email' className='w-full rounded-md border border-gray-300 dark:border-gray-500 px-2 py-1 mb-4'  />
                     <input type="password" placeholder='enter your password' className='w-full rounded-md border border-gray-300 dark:border-gray-500 px-2 py-1 mb-4'  />
                     <div>
-                      <button className='w-full bg-orange-500 hover:bg-orange-600 duration-200 text-white p-2 rounded-md' onClick={() => setShowPopup(false)}>
+                      <button className='w-full bg-orange-500 hover:bg-orange-600 duration-200 text-white p-2 rounded-md' >
                         Log In
                       </button>
                     </div>
 
                   </div>
+                  </form>
 
 
               </div>
             </div>
+            
           </div>
         
       

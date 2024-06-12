@@ -34,6 +34,7 @@ const Home = () => {
           <img className='w-28 h-28 img-fluid rounded-full hover:scale-110 duration-500 transition-transform object-cover' src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2FsYWR8ZW58MHx8MHx8fDA%3D" alt="" />
           <h1 className='mt-5 ml-7 text-xl font-semibold'>salad</h1>
         </div>
+        
         <div className="card ">
           <img className='w-28 h-28 img-fluid rounded-full hover:scale-110 duration-500 transition-transform object-cover' src="https://media.istockphoto.com/id/171579564/photo/chicken-souvlaki-wrap.webp?b=1&s=170667a&w=0&k=20&c=DYEk-teR8P82nnmXAx_hGBdM9ezH4c8zxQRv1PuVyew=" alt="" />
           <h1 className='mt-5 ml-7 text-xl font-semibold'>Rolls</h1>

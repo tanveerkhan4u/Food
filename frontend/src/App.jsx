@@ -5,6 +5,7 @@ import Home from './Components/Home';
 import Navbar from './Components/Navbar';
 import About from './Components/About';
 import Popup from './Components/Popup';
+import Footer from './Components/Footer';
 
 
 
@@ -14,26 +15,30 @@ function App() {
   
  
   
-
-
-
+  
+  const [showPopUp, setShowPopUp] = useState(false);
+  
   return (
     <>
+  
      <BrowserRouter>
      <Navbar></Navbar>
       <Routes>
-      <Route path="/Home" element={<Home />} />
-      <Route path="/Navbar" element={<Navbar />} />
+      <Route path="" element={<Home />} />
+      <Route path="/Navbar" element={<Navbar setShowPopUp={setShowPopUp} />} />
       <Route path="/About" element={<About />} />
-      <Route path="/Popup" element={<Popup />} />
-      
-      
-      
+      <Route path="/Footer" element={<Footer />} />
+      <Route path="/Popup" element={!showPopUp ? <Popup/>:<></>} />
       </Routes>
+      <Footer></Footer>
       </BrowserRouter>
-
     </>
   )
 }
 
 export default App;
+
+      
+      
+      
+
