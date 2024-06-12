@@ -20,7 +20,7 @@ const Navbar = ({setShowPopUp} ) => {
            </Link>
            <ul className="navbar-menu">
             <Link to="/" onClick={() =>setmenu("home")} className={menu==="home"?"active":""}>Home</Link>
-            <li onClick={() =>setmenu("menu")} className={menu==="menu"?"active":""}>Menu</li>
+            <Link to="/Menu" onClick={() =>setmenu("menu")} className={menu==="menu"?"active":""}>Menu</Link>
             <Link to="/About" onClick={() =>setmenu("about us")} className={menu==="about us"?"active":""}>Abouts Us</Link>
             <li onClick={() =>setmenu("contact us")} className={menu==="contact us"?"active":""}>Contact Us</li>
            </ul>

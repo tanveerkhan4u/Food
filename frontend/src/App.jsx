@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar';
 import About from './Components/About';
 import Popup from './Components/Popup';
 import Footer from './Components/Footer';
+import Menu from './Components/Menu';
 
 
 
@@ -25,6 +26,7 @@ function App() {
      <Navbar></Navbar>
       <Routes>
       <Route path="" element={<Home />} />
+      <Route path="/Menu" element={<Menu />} />
       <Route path="/Navbar" element={<Navbar setShowPopUp={setShowPopUp} />} />
       <Route path="/About" element={<About />} />
       <Route path="/Footer" element={<Footer />} />
