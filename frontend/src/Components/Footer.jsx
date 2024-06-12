@@ -1,5 +1,4 @@
 import React from 'react'
-import zwigato from './images/zwigato.png'
 import { FaFacebookF ,  FaInstagram   } from "react-icons/fa";
 import { FaXTwitter, FaLinkedinIn } from "react-icons/fa6";
 
@@ -11,7 +10,7 @@ const Footer = () => {
         <div className='max-w-7xl mx-auto'>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
             <div className='mb-5 lg:ml-20'>
-              <img src={zwigato} className='object-cover w-32 h-32  lg:ml-10 ' alt="" />
+              <img src='/images/zwigato.png' className='object-cover w-32 h-32  lg:ml-10 ' alt="" />
 
 
 

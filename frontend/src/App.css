@@ -25,20 +25,31 @@
 @media (max-width: 425px) {
   .photo{
     height: 300px;
+    }
+
+  }
+
+  @media (max-width: 820px)  {
+    .photo{
+      height: 300px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .photo{
+      height: 400px;
+    }
+  }
+  /* media query end for menu background image */
+
+  .mind{
+    max-width: 60%;
+  }
     
-  }
-}
-@media (max-width: 820px)  {
-  .photo{
-    height: 300px;
-  }
-}
-@media (max-width: 1024px) {
-  .photo{
-    height: 400px;
-  }
-}
-/* media query end for menu background image */
+  
+    
+  
+    
 .fork{
   background-position: center;
   

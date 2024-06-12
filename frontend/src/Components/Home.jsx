@@ -4,10 +4,6 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import { EffectCoverflow, Pagination } from 'swiper/modules';
-import mobile from './images/mobile.png'
-import apple from './images/apple.png'
-import google from './images/google.png'
-import arrow from './images/arrow.png'
 import { FaBus } from "react-icons/fa";
 
 const Home = () => {
@@ -27,7 +23,7 @@ const Home = () => {
       </div>
       <div className="container">
         <h3 className='text-orange-500 text-4xl mt-5 ml-5 font-bold '>What's on your mind?</h3>
-        <p className='text-gray-600 mt-5 menu ml-5 '> choose from diverse menu featuring a delectable array of dishes. Our mission is to satisfy your cravings and elevate your dining  experience one delicious meal at a time.</p>
+        <p className='text-gray-600 mt-5 mind ml-5 '> choose from diverse menu featuring a delectable array of dishes. Our mission is to satisfy your cravings and elevate your dining  experience one delicious meal at a time.</p>
       </div>
       <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 ml-5 mt-5 ">
         <div className="card ">
@@ -176,18 +172,18 @@ const Home = () => {
             </p>
             <div className='grid grid-cols-1 md:grid-cols-2  lg:grid-cols-2 ml-20'>
               <div>
-                <img src={apple} className='object-cover w-52 mt-5  hover:scale-110 duration-500 transition-transform' alt="" />
+                <img src='/images/apple.png' className='object-cover w-52 mt-5  hover:scale-110 duration-500 transition-transform' alt="" />
               </div>
               <div >
-                <img src={google} className='object-cover w-52 mt-5 hover:scale-110 duration-500 transition-transform' alt="" />
+                <img src='/images/google.png' className='object-cover w-52 mt-5 hover:scale-110 duration-500 transition-transform' alt="" />
               </div>
               <div>
-                <img src={arrow} className='object-cover mt-10 px-4 py-4 w-38 md:ml-20' alt="" />
+                <img src='/images/arrow.png' className='object-cover mt-10 px-4 py-4 w-38 md:ml-20' alt="" />
               </div>
             </div>
           </div>
           <div >
-            <img src={mobile} className='object-cover mobile ml-10 sm:ml-4 md:ml-8 lg:ml-20 py-4 px-4 ' alt="" />
+            <img src='/images/mobile.png' className='object-cover mobile ml-10 sm:ml-4 md:ml-8 lg:ml-20 py-4 px-4 ' alt="" />
           </div>
         </div>
       </div>

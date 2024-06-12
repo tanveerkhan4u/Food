@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import zwigato from './images/zwigato.png'
+ 
 import { CiShoppingCart , CiSearch } from "react-icons/ci";
 import { IoIosMenu } from "react-icons/io";
 
@@ -16,7 +16,7 @@ const Navbar = ({setShowPopUp} ) => {
     <>
       <div className='navbar'>
       <Link to="">
-           <img src={zwigato} className='zwiagto  object-cover w-16 h-16' alt="" />
+           <img src='/images/zwigato.png' className='zwiagto  object-cover w-16 h-16' alt="" />
            </Link>
            <ul className="navbar-menu">
             <Link to="/" onClick={() =>setmenu("home")} className={menu==="home"?"active":""}>Home</Link>
