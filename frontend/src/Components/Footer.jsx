@@ -30,7 +30,7 @@ const Footer = () => {
               </div>
             </div>
             <div className='mb-5 lg:ml-20 lg:mt-5'>
-              <h4 className='text-3xl font-bold'>Company</h4>
+              <h4 className='text-3xl font-bold text-white'>Company</h4>
               <ul className='mt-2'>
                 <li>Home</li>
                 <li>Menu</li>
@@ -39,7 +39,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className='mb-5 lg:mt-5'>
-              <h4 className='text-3xl font-bold'>Get In Touch </h4>
+              <h4 className='text-3xl font-bold text-white'>Get In Touch </h4>
               <ul className='mt-2'>
                 +91 6394826676 <br />
                 Zwigato123@gmail.com <br />

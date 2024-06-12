@@ -20,7 +20,7 @@ const Home = () => {
           <div className=" mt-10">
 
             <button1 className="p-5 fs-5 button">
-              order Now
+              Order Now
             </button1>
           </div>
         </div>
