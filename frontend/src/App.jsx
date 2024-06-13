@@ -8,6 +8,7 @@ import Popup from './Components/Popup';
 import Footer from './Components/Footer';
 import Menu from './Components/Menu';
 import Card from './Components/Card';
+import Contact from './Components/Contact';
 
 
 
@@ -31,6 +32,7 @@ function App() {
       <Route path="/Card" element={<Card />} />
       <Route path="/Navbar" element={<Navbar setShowPopUp={setShowPopUp} />} />
       <Route path="/About" element={<About />} />
+      <Route path="/Contact" element={<Contact />} />
       <Route path="/Footer" element={<Footer />} />
       <Route path="/Popup" element={!showPopUp ? <Popup/>:<></>} />
       </Routes>
