@@ -10,9 +10,9 @@ function Card  ({food})  {
       <img src={food.img} alt="" className='w-auto h-[150px] hover:scale-110 cursor-grab transition-all duration-500 ease-in-out ' />
       <div className='text-md flex justify-between mt-2'>
         <h2>{food.name}</h2>
-        <span className='text-green-500 '>₹{food.price}</span>
+        <span className='text-orange-500 '>₹{food.price}</span>
       </div>
-      <p className='text-sm font-normal'>{food.desc}</p>
+      <p className='text-sm font-normal'>{food.desc.slice(0, 50)}...</p>
       <div className='flex justify-between'>
         <span className='flex justify-center items-center'>
         <AiFillStar className='mr-1 text-yellow-400'/> {food.rating}
