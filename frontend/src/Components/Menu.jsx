@@ -17,7 +17,7 @@ const Menu = () => {
             placeholder="Search..."
             className="px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent w-full lg:max-w-xl md:max-w-lg"
           />
-          <button1 className="p-2">
+          <button1 className="p-2 rounded">
             Search
           </button1>
         </div>

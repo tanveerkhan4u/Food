@@ -7,6 +7,7 @@ import About from './Components/About';
 import Popup from './Components/Popup';
 import Footer from './Components/Footer';
 import Menu from './Components/Menu';
+import Card from './Components/Card';
 
 
 
@@ -27,6 +28,7 @@ function App() {
       <Routes>
       <Route path="" element={<Home />} />
       <Route path="/Menu" element={<Menu />} />
+      <Route path="/Card" element={<Card />} />
       <Route path="/Navbar" element={<Navbar setShowPopUp={setShowPopUp} />} />
       <Route path="/About" element={<About />} />
       <Route path="/Footer" element={<Footer />} />
