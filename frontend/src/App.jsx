@@ -3,7 +3,6 @@ import './App.css'
 import { BrowserRouter, Link, Route, Routes, NavLink, } from 'react-router-dom';
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
-import About from './Components/About';
 import Popup from './Components/Popup';
 import Footer from './Components/Footer';
 import Menu from './Components/Menu';
@@ -31,7 +30,6 @@ function App() {
       <Route path="/Menu" element={<Menu />} />
       <Route path="/Card" element={<Card />} />
       <Route path="/Navbar" element={<Navbar setShowPopUp={setShowPopUp} />} />
-      <Route path="/About" element={<About />} />
       <Route path="/Contact" element={<Contact />} />
       <Route path="/Footer" element={<Footer />} />
       <Route path="/Popup" element={!showPopUp ? <Popup/>:<></>} />
