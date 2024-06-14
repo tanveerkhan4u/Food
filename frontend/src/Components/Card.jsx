@@ -7,7 +7,7 @@ function Card  ({food})  {
   
   return (
     <div className='font-bold w-[250px] bg-white p-5 flex flex-col rounded-lg gap-2'>
-      <img src={food.img} alt="" className='w-auto h-[150px] hover:scale-110 cursor-grab transition-all duration-500 ease-in-out ' />
+      <img src={food.img} alt="" className='w-auto h-[160px] hover:scale-110 cursor-grab transition-all duration-500 ease-in-out ' />
       <div className='text-md flex justify-between mt-2'>
         <h2>{food.name}</h2>
         <span className='text-orange-500 '>₹{food.price}</span>
